@@ -197,12 +197,10 @@ logging.info("conv layer 1 finished")
 # get feature map of FCLayer
 # fmap_dense1, _ = get_fmap(model, model.MLP.fc1[0], test_loader)
 # pd.DataFrame(fmap_dense1, index=test_gene).to_csv("./Motif/fmap_dense1.csv")
-
 # logging.info("Dense layer finished")
 
 # fmap_task_cat, _ = get_fmap(model, model.cat_task, test_loader)
 # pd.DataFrame(fmap_task_cat, index=test_gene, columns=celltype).to_pickle("./Motif/fmap_task_cat.p", compression='xz')
-
 # logging.info("task_cat layer finished")
 
 # channel influence
@@ -241,10 +239,10 @@ logging.info("influence_layer1_combination finished")
 # device = torch.device("cpu")
 # model.to(device)
 
-input_tensor = torch.from_numpy(x_test[np.random.randint(0, x_test.shape[0], 256),:,:]).to(device)
-# saliancy score
-saliency_length = input_saliancy_location(model, input_tensor, n_class=len(celltype), use_abs=True)
-saliency_length.to_csv("./Motif/saliency_location.csv")
+# input_tensor = torch.from_numpy(x_test[np.random.randint(0, x_test.shape[0], 256),:,:]).to(device)
+# # saliancy score
+# saliency_length = input_saliancy_location(model, input_tensor, n_class=len(celltype), use_abs=True)
+# saliency_length.to_csv("./Motif/saliency_location.csv")
 
 # layer conductance
 # df_conv1 = label_neuron_importance(model, model.Embedding.conv1[0], input_tensor, label=celltype)

@@ -125,10 +125,10 @@ meme_generate(W1, output_file="./Motif/meme_conv1_thres9.txt")
 gene_seq, gene_name = get_activate_sequence_from_fmap(fmap1, X1, pool=1, threshold=0.99, motif_width=9)
 onehot2seq(gene_seq, gene_name, "./Motif/test_gene_activate_conv1_t95.fasta")
 
-# # motif frequency
-# W1_freq, W1_IC = calc_frequency_W(W1, background=0.25)
-# pd.DataFrame({"freq":W1_freq, "IC":W1_IC}).to_csv("./Motif/W1_IC_freq.csv")
-# logging.info("conv layer 1 finished")
+# motif frequency
+W1_freq, W1_IC = calc_frequency_W(W1, background=0.25)
+pd.DataFrame({"freq":W1_freq, "IC":W1_IC}).to_csv("./Motif/W1_IC_freq.csv")
+logging.info("conv layer 1 finished")
 
 # # convolution layer 2
 # W2 = get_activate_W(model, model.Embedding.conv2[0], test_loader, pool=7, threshold=0.8, motif_width=7)
