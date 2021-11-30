@@ -21,13 +21,13 @@ x_test = h5file["test_data"][:].astype(np.float32)
 y_test = h5file["test_label"][:].astype(np.float32)
 test_gene = h5file["test_gene"][:]
 
-y_train, y_test = y_train[:,:10], y_test[:,:10]
+# y_train, y_test = y_train[:,:10], y_test[:,:10]
 
 print(x_train.shape)
 print(y_train.shape)
 
 # Learn to predict each class against the other
-classifier = OneVsRestClassifier(svm.SVC(kernel='rbf', max_iter=100))
+classifier = OneVsRestClassifier(svm.SVC(kernel='rbf', max_iter=-1)) # iter untill converge
 
 y_score = classifier.fit(x_train, y_train).decision_function(x_test)
 print(y_score.shape)
