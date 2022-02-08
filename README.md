@@ -24,15 +24,19 @@ Nvwa, a deep learning–based strategy, to predict expression landscapes and dec
 - ```main``` examples for run model in each species
 - ```Analysis_plotting``` analysis and plotting function
 
+## Datasets for eight species
+We provided single cell labels for eight species in URL.
+
 ## Running Nvwa
 **Example**
 ```
 python 1_train/1_hyperopt_BCE_best.py ./Dataset.Dmel_train_test.h5
 python 1_train/1_hyperopt_BCE_best.py ./Dataset.Dmel_train_test.h5 --mode test
 python 2_explain/1_run_explain.py ./Dataset.Dmel_train_test.h5
-
 ```
 **Details**
+
+`./Dataset.Dmel_train_test.h5`: example of Dataset.h5 file
 
 `./1_train/1_hyperopt_BCE_best.py`: for init, train and test models
 
@@ -45,6 +49,4 @@ python 2_explain/1_run_explain.py ./Dataset.Dmel_train_test.h5
 ## Note
 Nvwa is now more like in-house scripts for reproducing our work in ```Inferring genetic models from cross-species cell landscapes```, if you find any problem running Nvwa code, please contant me.
 
-NvTK (NvwaToolKit), a more systemmatic software is under acitivate development.
-
-NvTK will support modern deep learning achitectures in genomics, such as ResNet, Attention Module, and Transformer.
+NvTK (NvwaToolKit), a more systemmatic software is under acitivate development. It will support modern deep learning achitectures in genomics, such as ResNet, Attention Module, and Transformer. I recommend to use NvTK for generating your own model.
