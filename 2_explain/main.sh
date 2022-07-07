@@ -62,6 +62,8 @@ python ./calculate_reproduce.py
 python ./collect_result.py
 
 
+
+############################ explain ############################
 BASEDIR=/media/ggj/Files/mount/NvWA_Final
 MOTIFDB=/media/ggj/Files/mount/NvWA_Final/0_TFBS/JASPAR2020/JASPAR2020_CORE_non-redundant_pfms_meme.txt
 
@@ -228,4 +230,3 @@ python $BASEDIR/model_training_20211030/Influe.filter.py ../../../0_Dataset/Data
 
 
 
-############################ finetune explain ############################
