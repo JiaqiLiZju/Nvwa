@@ -32,7 +32,7 @@ python ./1_hyperopt_BCE_best.py ../data/train.mouse.h5 --gpu-device 0 --mode tra
 
 # if training failed, we can use resume mode to resume the model traing
 # check the checkpoint.dir
-# python ./1_hyperopt_BCE_best.py ../data/train.human.h5 --gpu-device 0 --mode resume --trails hyperopt_trials/params.p --use_data_rc_augment True
+python ./1_hyperopt_BCE_best.py ../data/train.human.h5 --gpu-device 0 --mode resume --trails hyperopt_trials/params.p --use_data_rc_augment True
 
 ## test
 python ./1_hyperopt_BCE_best.py ../data/train.human.h5 --gpu-device 0 --mode test --trails hyperopt_trials/params.p
@@ -41,6 +41,10 @@ python ./1_hyperopt_BCE_best.py ../data/train.mouse.h5 --gpu-device 0 --mode tes
 # plot test metric
 Rscript 1_test_assignment.r
 Rscript 1_test_cluster.r
+
+# We used the model architectures considering model explaination
+python ./1_hyperopt_BCE_best.py ../data/train.human.h5 --gpu-device 0 --trails explainable 
+python ./1_hyperopt_BCE_best.py ../data/train.human.h5 --gpu-device 0 --trails explainable --mode test
 
 ######################## cross validation ########################
 for x in {1..5};do
