@@ -109,6 +109,3 @@ python ../../../../1_hyperopt_BCE_best_pos.py ../../Dataset.Dmel_train_test.h5 -
 python ../../../../1_hyperopt_BCE_best_pos.py ../../Dataset.Dmel_train_test.h5 --lr 1e-3 --gpu-device 2 --trails explainable --pos 500 
 && python ../../../../1_hyperopt_BCE_best_pos.py ../../Dataset.Dmel_train_test.h5 --lr 1e-3 --gpu-device 2 --trails explainable --pos 500 --mode test &
 
-
-MOTIFDB=/media/ggj/Files/mount/NvWA_Final/0_TFBS/CisBP/Mus_musculus_2019_01/mouse.cisbp201901.meme
-tomtom -oc tomtom_conv1_CisTarget_t1_allr -thresh 0.1 -dist allr -no-ssc ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &

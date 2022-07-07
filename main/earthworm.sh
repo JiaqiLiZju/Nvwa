@@ -36,6 +36,7 @@ python /share/home/guoguoji/NvWA/Train/1_hyperopt_BCE_best.py ../Dataset.EarthWo
 mkdir train_pos1000_lr4; cd train_pos1000_lr4/; ll -h
 python /share/home/guoguoji/NvWA/Train/1_hyperopt_BCE_best.py ../Dataset.EarthWorm_train_test.h5 --patience 10 --pos 1000 --gpu-device 3 --lr 1e-4 --trails explainable --tower_by Celltype --batch_size 16 && python /share/home/guoguoji/NvWA/Train/1_hyperopt_BCE_best.py ../Dataset.EarthWorm_train_test.h5 --gpu-device 2 --trails explainable --mode test --tower_by Celltype --batch_size 128 &
 
+python ~/NvWA/code/1_train/1_hyperopt_BCE_best.py Dataset.EarthWorm_train_test.h5 --gpu-device 1 --trails explainable --tower_by Celltype --batch_size 32 --lr 1e-3 --patience 20 && python ~/NvWA/code/1_train/1_hyperopt_BCE_best.py Dataset.EarthWorm_train_test.h5 --gpu-device 1 --trails explainable --mode test --tower_by Celltype &
 
 ##
 cd CV_1; python ../../../../../1_run_explain_cv.py ../../Dataset.cross_valid_1.h5 --gpu-device 1 --trails explainable &
@@ -63,8 +64,7 @@ cd ..
 for i in {1..10}
 do
     tomtom -oc tomtom_vs${i} -thresh 0.1 \
-    /media/ggj/Files/mount/NvWA_Final/model_training_8000gene_20210207/EarthWorm_MAGIC_300gene_500UMI_012/Motif/meme_conv1_thres9.txt \
-    /media/ggj/Files/mount/NvWA_Final/model_training_8000gene_20210207/EarthWorm_MAGIC_300gene_500UMI_012/CrossValid/CV_$i/Motif/meme_conv1_thres9.txt &>log.tomtom_conv1 &
+    ../Motif/meme_conv1_thres9.txt ./CV_$i/Motif/meme_conv1_thres9.txt &>log.tomtom_conv1 &
 done
 
 ln -s ../Motif/meme_conv1_thres9_IC_freq.csv .

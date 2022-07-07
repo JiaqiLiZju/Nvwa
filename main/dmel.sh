@@ -1,72 +1,16 @@
 ###### TrainTest
 python ../../1_hyperopt_BCE_best.py ./Dataset.Dmel_train_test.h5 --gpu-device 0 --trails explainable --pos 2000 
-python ../../1_hyperopt_BCE_best.py ./Dataset.Dmel_train_test.h5 --gpu-device 0 --trails explainable --pos 2000 --batch_size 1000 --mode test
-python ../../1_hyperopt_BCE_best.py ./Dataset.Dmel_train_test.h5 --gpu-device 0 --trails explainable --pos 2000 --batch_size 1000 --mode test_all
+python ../../1_hyperopt_BCE_best.py ./Dataset.Dmel_train_test.h5 --gpu-device 0 --trails explainable --pos 2000 --batch_size 100 --mode test
+python ../../1_hyperopt_BCE_best.py ./Dataset.Dmel_train_test.h5 --gpu-device 0 --trails explainable --pos 2000 --batch_size 100 --mode test_all
 python ../../1_run_explain.py ./Dataset.Dmel_train_test.h5 --gpu-device 0 --trails explainable --pos 2000
 
 # test metric plot
-python ./1_test_task_relationship.py
+# python ./1_test_task_relationship.py
 Rscript ./1_test_assignment.r
 
 # TFBS
 MOTIFDB=/media/ggj/Files/mount/NvWA_Final/TFBS/Motif_scenic/out.meme
 tomtom -oc tomtom_conv1_CisTarget_t1_allr -thresh 0.1 -dist allr -no-ssc ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-tomtom -oc tomtom_conv1_CisTarget_t1_pearson -thresh 0.1 ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-tomtom -oc tomtom_conv1_CisTarget_t1_kullback -thresh 0.1 -dist kullback ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-tomtom -oc tomtom_conv1_CisTarget_t1_ed -thresh 0.1 -dist ed ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-tomtom -oc tomtom_conv1_CisTarget_t1_sandelin -thresh 0.1 -dist sandelin ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-tomtom -oc tomtom_conv1_CisTarget_t1_llr1 -thresh 0.1 -dist llr1 ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-cat tomtom_conv1_CisTarget_t1_allr/tomtom.tsv |cut -f 1 |uniq |grep Motif_ |wc -l
-cat tomtom_conv1_CisTarget_t1_kullback/tomtom.tsv |cut -f 1 |uniq |grep Motif_ |wc -l
-cat tomtom_conv1_CisTarget_t1_ed/tomtom.tsv |cut -f 1 |uniq |grep Motif_ |wc -l
-cat tomtom_conv1_CisTarget_t1_pearson/tomtom.tsv |cut -f 1 |uniq |grep Motif_ |wc -l
-cat tomtom_conv1_CisTarget_t1_sandelin/tomtom.tsv |cut -f 1 |uniq |grep Motif_ |wc -l
-cat tomtom_conv1_CisTarget_t1_llr1/tomtom.tsv |cut -f 1 |uniq |grep Motif_ |wc -l
-
-MOTIFDB=/media/ggj/Files/mount/NvWA_Final/TFBS/JASPAR2020/JASPAR2020_CORE_non-redundant_pfms_meme.txt
-tomtom -oc tomtom_conv1_JASPAR_t1_allr -thresh 0.1 -dist allr -no-ssc ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-tomtom -oc tomtom_conv1_JASPAR_t1_pearson -thresh 0.1 ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-tomtom -oc tomtom_conv1_JASPAR_t1_kullback -thresh 0.1 -dist kullback ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-tomtom -oc tomtom_conv1_JASPAR_t1_ed -thresh 0.1 -dist ed ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-tomtom -oc tomtom_conv1_JASPAR_t1_sandelin -thresh 0.1 -dist sandelin ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-tomtom -oc tomtom_conv1_JASPAR_t1_llr1 -thresh 0.1 -dist llr1 ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-cat tomtom_conv1_JASPAR_t1_allr/tomtom.tsv |cut -f 1 |uniq |grep Motif_ |wc -l
-cat tomtom_conv1_JASPAR_t1_kullback/tomtom.tsv |cut -f 1 |uniq |grep Motif_ |wc -l
-cat tomtom_conv1_JASPAR_t1_ed/tomtom.tsv |cut -f 1 |uniq |grep Motif_ |wc -l
-cat tomtom_conv1_JASPAR_t1_pearson/tomtom.tsv |cut -f 1 |uniq |grep Motif_ |wc -l
-cat tomtom_conv1_JASPAR_t1_sandelin/tomtom.tsv |cut -f 1 |uniq |grep Motif_ |wc -l
-cat tomtom_conv1_JASPAR_t1_llr1/tomtom.tsv |cut -f 1 |uniq |grep Motif_ |wc -l
-
-MOTIFDB=/media/ggj/Files/mount/NvWA_Final/TFBS/CisBP/Drosophila_melanogaster/out.meme
-tomtom -oc tomtom_conv1_CisBP_Dmel_t9 -thresh 0.5 -dist allr ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-
-MOTIFDB=/media/ggj/Files/mount/NvWA_Final/TFBS/meme_motif_databases/CIS-BP/Drosophila_melanogaster.meme
-tomtom -oc tomtom_conv1_CISBP_t9 -thresh 0.5 ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-
-MOTIFDB=/media/ggj/Files/mount/NvWA_Final/TFBS/meme_motif_databases/FLY/flyreg.v2.meme
-tomtom -oc tomtom_conv1_flyreg_t9 -thresh 0.1 ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-
-MOTIFDB=/media/ggj/Files/mount/NvWA_Final/TFBS/meme_motif_databases/FLY/OnTheFly_2014_Drosophila.meme
-tomtom -oc tomtom_conv1_OnTheFly_2014_t9 -thresh 0.1 ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-
-MOTIFDB=/media/ggj/Files/mount/NvWA_Final/TFBS/meme_motif_databases/FLY/fly_factor_survey.meme
-tomtom -oc tomtom_conv1_fly_factor_survey_t9 -thresh 0.1 ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-
-MOTIFDB=/media/ggj/Files/mount/NvWA_Final/TFBS/meme_motif_databases/FLY/dmmpmm2009.meme
-tomtom -oc tomtom_conv1_dmmpmm2009_t9 -thresh 0.1 ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-
-# RNA-Binding Site
-MOTIFDB=/media/ggj/Files/mount/NvWA_Final/TFBS/meme_motif_databases/RNA/Ray2013_rbp_Drosophila_melanogaster.dna_encoded.meme
-tomtom -oc tomtom_conv1_RBP_t9 -thresh 0.1 ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-
-# RNA-Binding Site
-MOTIFDB=/media/ggj/Files/mount/NvWA_Final/TFBS/meme_motif_databases/CISBP-RNA/Drosophila_melanogaster.dna_encoded.meme
-tomtom -oc tomtom_conv1_RBP_CISBP_t9 -thresh 0.1 ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-
-# MIR-Binding Site
-MOTIFDB=/media/ggj/Files/mount/NvWA_Final/TFBS/meme_motif_databases/MIRBASE/Drosophila_melanogaster_dme.dna_encoded.meme
-tomtom -oc tomtom_conv1_MIRBP_t9 -thresh 0.1 ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
-
 
 ###### CV
 mkdir CrossValid
@@ -136,7 +80,6 @@ python ../../../../1_hyperopt_BCE_best_pos.py ../../Dataset.Dmel_train_test.h5 -
 
 python ../../../../1_hyperopt_BCE_best_pos.py ../../Dataset.Dmel_train_test.h5 --lr 1e-3 --gpu-device 2 --trails explainable --pos 500 
 && python ../../../../1_hyperopt_BCE_best_pos.py ../../Dataset.Dmel_train_test.h5 --lr 1e-3 --gpu-device 2 --trails explainable --pos 500 --mode test &
-
 
 MOTIFDB=/media/ggj/Files/mount/NvWA_Final/0_TFBS/CisBP/Drosophila_melanogaster/out.meme
 tomtom -oc tomtom_conv1_CisTarget_t1_allr -thresh 0.1 -dist allr -no-ssc ./meme_conv1_thres9.txt $MOTIFDB &>log.tomtom_conv1 &
