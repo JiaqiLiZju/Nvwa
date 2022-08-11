@@ -1,0 +1,53 @@
+Celltype,Species,Cellcluster,Celltype_name,colors_lineage
+Drosophila3,Drosophila,Follicle,Follicle stem cell,lightblue
+Drosophila16,Drosophila,Germ,Germline stem cell,lightblue
+Drosophila55,Drosophila,Germ,Germline stem Cell,lightblue
+Drosophila7,Drosophila,Follicle,Follicle stem cell,lightblue
+Drosophila29,Drosophila,MT,Malpighian tubule principal cell of lower ureter,#33A02C
+Drosophila44,Drosophila,FatBody,Fat body,#fa9fb5
+Drosophila35,Drosophila,Follicle,Follicle stem cell,lightblue
+Drosophila15,Drosophila,Follicle,Follicle cell,lightblue
+Drosophila13,Drosophila,Muscle,Muscle cell,#66A61E
+Drosophila18,Drosophila,Follicle,Follicle cell,lightblue
+Drosophila1,Drosophila,Follicle,Follicle cell (RP_high),lightblue
+Drosophila19,Drosophila,Follicle,Follicle cell,lightblue
+Drosophila4,Drosophila,Follicle,Follicle cell (RP_high),lightblue
+Drosophila5,Drosophila,Follicle,Follicle cell (RP_high),lightblue
+Drosophila38,Drosophila,Follicle,Main body follicle cell,lightblue
+Drosophila20,Drosophila,Follicle,Follicle cell,lightblue
+Drosophila6,Drosophila,Follicle,Follicle cell,lightblue
+Drosophila41,Drosophila,Neuron,alpha or beta Kenyon cell,#D95F02
+Drosophila10,Drosophila,Neuron,GABAergic neurons or glutamatergic neurons,#D95F02
+Drosophila9,Drosophila,Neuron,alpha or beta Kenyon cell,#D95F02
+Drosophila14,Drosophila,Neuron,Central nerve cell,#D95F02
+Drosophila52,Drosophila,Neuron,T1 neuron,#D95F02
+Drosophila39,Drosophila,MAG,Male accessory gland,#BC80BD
+Drosophila59,Drosophila,MAG,Male accessory gland,#BC80BD
+Drosophila42,Drosophila,MAG,Male accessory gland or hemocyte,#BC80BD
+Drosophila43,Drosophila,MAG,Male accessory gland,#BC80BD
+Drosophila51,Drosophila,Epithelial,Epithelial cell,#E7298A
+Drosophila28,Drosophila,Proliferating,Enteroblast,#A6761D
+Drosophila48,Drosophila,MAG,Male accessory gland,#BC80BD
+Drosophila33,Drosophila,Follicle,Follicle cell,lightblue
+Drosophila47,Drosophila,Gut,Enteroendocrine,#BEBADA
+Drosophila49,Drosophila,Neuron,Glial cell,#D95F02
+Drosophila27,Drosophila,Hemocytes,Hemocytes,#B15928
+Drosophila45,Drosophila,Hemocytes,Hemocytes,#B15928
+Drosophila32,Drosophila,Gut,Cardia,#BEBADA
+Drosophila24,Drosophila,Epithelial,Salivary gland,#E7298A
+Drosophila34,Drosophila,Epithelial,Oviduct,#E7298A
+Drosophila54,Drosophila,FatBody,Fat body,#fa9fb5
+Drosophila23,Drosophila,Gut,Posterior enterocyte,#BEBADA
+Drosophila36,Drosophila,MT,Malpighian tubule,#33A02C
+Drosophila22,Drosophila,Gut,Anterior enterocyte,#BEBADA
+Drosophila26,Drosophila,Gut,Anterior enterocyte,#BEBADA
+Drosophila12,Drosophila,Hemocytes,Hemocytes,#B15928
+Drosophila21,Drosophila,Gut,Anterior enterocyte,#BEBADA
+Drosophila31,Drosophila,Neuron,Central nerve cell,#D95F02
+Drosophila57,Drosophila,MAG,Male gonad associated epithelium,#BC80BD
+Drosophila56,Drosophila,Epithelial,Epidermal cell that specialized in antimicrobial response,#E7298A
+Drosophila46,Drosophila,MT,Malpighian tubule,#33A02C
+Drosophila37,Drosophila,Epithelial,Epidermal cell that specialized in antimicrobial response,#E7298A
+Drosophila58,Drosophila,Epithelial,Tracheal cell,#E7298A
+Drosophila25,Drosophila,Epithelial,Pigment cell,#E7298A
+Drosophila8,Drosophila,Epithelial,Epidermal cell that specialized in antimicrobial response,#E7298A
