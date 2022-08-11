@@ -1,0 +1,47 @@
+,Celltype,Motif,Influe,ID,Query_ID,Target_ID,gene_name,Gene,JSDR
+0,Neurosecretory cell_Zebrafish44,Motif_31,0.81490743,Zebrafish44,Motif_31,M02889_2.00,egr4,egr4,0.1355955774124461
+1,Neurosecretory cell_Zebrafish44,Motif_85,0.7766214,Zebrafish44,Motif_85,M02889_2.00,egr4,egr4,0.1355955774124461
+2,Primordial germ cell_Zebrafish10,Motif_31,1.9320631000000001,Zebrafish10,Motif_31,M02878_2.00,ctcf,ctcf,0.1231787734581754
+3,Primordial germ cell_Zebrafish15,Motif_31,1.896278,Zebrafish15,Motif_31,M04525_2.00,sp2,sp2,0.1122189632590972
+4,Primordial germ cell_Zebrafish15,Motif_85,1.9604008000000002,Zebrafish15,Motif_85,M04525_2.00,sp2,sp2,0.1122189632590972
+5,Primordial germ cell_Zebrafish15,Motif_31,1.896278,Zebrafish15,Motif_31,M02878_2.00,ctcf,ctcf,0.15060059181081675
+6,Epithelial cell_Zebrafish11,Motif_38,0.520383,Zebrafish11,Motif_38,M04845_2.00,foxe1,foxe1,0.12010531647074618
+7,Epithelial cell_Zebrafish38,Motif_38,0.5900363000000001,Zebrafish38,Motif_38,M04845_2.00,foxe1,foxe1,0.12812959127530887
+8,Epithelial cell_Zebrafish43,Motif_38,0.9957720999999999,Zebrafish43,Motif_38,M04845_2.00,foxe1,foxe1,0.1349625374871044
+9,Ionocyte_Zebrafish49,Motif_38,1.2164993,Zebrafish49,Motif_38,M00161_2.00,foxj1a,foxj1a,0.13732039746367194
+10,Neural cell_Zebrafish70,Motif_38,1.238622,Zebrafish70,Motif_38,M00161_2.00,foxj1b,foxj1b,0.171572615188764
+11,Neural cell_Zebrafish70,Motif_38,1.238622,Zebrafish70,Motif_38,M00161_2.00,foxj1a,foxj1a,0.12464099474768466
+12,Smooth muscle cell_Zebrafish40,Motif_38,1.1172965,Zebrafish40,Motif_38,M03034_2.00,foxl1,foxl1,0.1248101830903462
+13,Primordial germ cell_Zebrafish15,Motif_44,1.2476413999999998,Zebrafish15,Motif_44,M01971_2.00,elk4,elk4,0.12668324084939664
+14,Primordial germ cell_Zebrafish15,Motif_44,1.2476413999999998,Zebrafish15,Motif_44,M00157_2.00,gabpa,gabpa,0.11090482460868988
+15,Biliary epithelial cell_Zebrafish9,Motif_52,0.5259507,Zebrafish9,Motif_52,M00249_2.00,wt1a,wt1a,0.20450349254654066
+16,Biliary epithelial cell_Zebrafish9,Motif_115,0.7216281999999999,Zebrafish9,Motif_115,M00249_2.00,wt1a,wt1a,0.20450349254654066
+17,Primordial germ cell_Zebrafish15,Motif_52,1.9010823000000001,Zebrafish15,Motif_52,M00139_2.00,znf281b,znf281b,0.13412340182910276
+18,Primordial germ cell_Zebrafish15,Motif_85,1.9604008000000002,Zebrafish15,Motif_85,M00139_2.00,znf281b,znf281b,0.13412340182910276
+19,Goblet cell_Zebrafish20,Motif_77,0.7407172,Zebrafish20,Motif_77,M01486_2.00,fev,fev,0.3676733991410237
+20,Goblet cell_Zebrafish20,Motif_77,0.7407172,Zebrafish20,Motif_77,M01491_2.00,etv7,etv7,0.1029194609552655
+21,Granulocyte cell_Zebrafish19,Motif_77,0.58389264,Zebrafish19,Motif_77,M04595_2.00,zbtb2b,zbtb2b,0.11379422680052333
+22,Hepatocyte cell_Zebrafish1,Motif_77,1.0274637,Zebrafish1,Motif_77,M01496_2.00,erfl1,erfl1,0.1996329573534752
+23,Hepatocyte cell_Zebrafish8,Motif_77,1.4800081,Zebrafish8,Motif_77,M01496_2.00,erfl1,erfl1,0.10499323624521427
+24,Immune cell_Zebrafish13,Motif_77,1.3437918,Zebrafish13,Motif_77,M01495_2.00,fli1b,fli1b,0.11419251158233668
+25,Intestinal bulb cell_Zebrafish17,Motif_77,1.2803909,Zebrafish17,Motif_77,M01491_2.00,etv7,etv7,0.13051273304661534
+26,Intestinal bulb cell_Zebrafish6,Motif_77,1.0427855,Zebrafish6,Motif_77,M01491_2.00,etv7,etv7,0.1936519959350161
+27,Primordial germ cell_Zebrafish10,Motif_85,1.5885236,Zebrafish10,Motif_85,M00143_2.00,znf740b,znf740b,0.10174696188007347
+28,Primordial germ cell_Zebrafish15,Motif_85,1.9604008000000002,Zebrafish15,Motif_85,M00143_2.00,znf740b,znf740b,0.1196800488540536
+29,Primordial germ cell_Zebrafish15,Motif_85,1.9604008000000002,Zebrafish15,Motif_85,M02910_2.00,sp3b,sp3b,0.1034848601480961
+30,Primordial germ cell_Zebrafish15,Motif_85,1.9604008000000002,Zebrafish15,Motif_85,M02880_2.00,glis1a,glis1a,0.10739920645379007
+31,Epithelial cell_Zebrafish14,Motif_115,0.9563265,Zebrafish14,Motif_115,M04471_2.00,zic5,zic5,0.1142184760605366
+32,Epithelial cell_Zebrafish14,Motif_115,0.9563265,Zebrafish14,Motif_115,M03668_2.00,zic6,zic6,0.1291803344601158
+33,Epithelial cell_Zebrafish21,Motif_115,1.6033608,Zebrafish21,Motif_115,M00139_2.00,znf281a,znf281a,0.10764609853628904
+34,Epithelial cell_Zebrafish21,Motif_115,1.6033608,Zebrafish21,Motif_115,M00139_2.00,znf281b,znf281b,0.1017918546391896
+35,Epithelial cell_Zebrafish23,Motif_115,1.495555,Zebrafish23,Motif_115,M03668_2.00,zic6,zic6,0.13400122515890597
+36,Epithelial cell_Zebrafish28,Motif_115,1.9484116000000002,Zebrafish28,Motif_115,M00139_2.00,znf281a,znf281a,0.1051620047249685
+37,Epithelial cell_Zebrafish28,Motif_115,1.9484116000000002,Zebrafish28,Motif_115,M03668_2.00,zic6,zic6,0.10584937231353007
+38,Neuron_Zebrafish2,Motif_115,1.9857904999999998,Zebrafish2,Motif_115,M00139_2.00,znf281a,znf281a,0.18153825011560956
+39,Neuron_Zebrafish2,Motif_115,1.9857904999999998,Zebrafish2,Motif_115,M00139_2.00,znf281b,znf281b,0.1824355528072935
+40,Neuron_Zebrafish2,Motif_115,1.9857904999999998,Zebrafish2,Motif_115,M04471_2.00,zic5,zic5,0.12492334942309302
+41,Neuron_Zebrafish2,Motif_115,1.9857904999999998,Zebrafish2,Motif_115,M03668_2.00,zic6,zic6,0.1316587549378967
+42,Proliferating cell_Zebrafish4,Motif_115,1.8444180000000001,Zebrafish4,Motif_115,M00139_2.00,znf281a,znf281a,0.15359941372586686
+43,Proliferating cell_Zebrafish4,Motif_115,1.8444180000000001,Zebrafish4,Motif_115,M00139_2.00,znf281b,znf281b,0.1661775681008102
+44,Proliferating cell_Zebrafish4,Motif_115,1.8444180000000001,Zebrafish4,Motif_115,M04471_2.00,zic5,zic5,0.2619392208523694
+45,Proliferating cell_Zebrafish4,Motif_115,1.8444180000000001,Zebrafish4,Motif_115,M03668_2.00,zic6,zic6,0.2899002019418464

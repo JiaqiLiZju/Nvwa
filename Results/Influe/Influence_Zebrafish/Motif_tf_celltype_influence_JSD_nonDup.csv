@@ -1,0 +1,47 @@
+,Celltype,Motif,Gene
+0,Neurosecretory cell_Zebrafish44,Motif_31,egr4
+1,Neurosecretory cell_Zebrafish44,Motif_85,egr4
+2,Primordial germ cell_Zebrafish10,Motif_31,ctcf
+3,Primordial germ cell_Zebrafish15,Motif_31,sp2
+4,Primordial germ cell_Zebrafish15,Motif_85,sp2
+5,Primordial germ cell_Zebrafish15,Motif_31,ctcf
+6,Epithelial cell_Zebrafish11,Motif_38,foxe1
+7,Epithelial cell_Zebrafish38,Motif_38,foxe1
+8,Epithelial cell_Zebrafish43,Motif_38,foxe1
+9,Ionocyte_Zebrafish49,Motif_38,foxj1a
+10,Neural cell_Zebrafish70,Motif_38,foxj1b
+11,Neural cell_Zebrafish70,Motif_38,foxj1a
+12,Smooth muscle cell_Zebrafish40,Motif_38,foxl1
+13,Primordial germ cell_Zebrafish15,Motif_44,elk4
+14,Primordial germ cell_Zebrafish15,Motif_44,gabpa
+15,Biliary epithelial cell_Zebrafish9,Motif_52,wt1a
+16,Biliary epithelial cell_Zebrafish9,Motif_115,wt1a
+17,Primordial germ cell_Zebrafish15,Motif_52,znf281b
+18,Primordial germ cell_Zebrafish15,Motif_85,znf281b
+19,Goblet cell_Zebrafish20,Motif_77,fev
+20,Goblet cell_Zebrafish20,Motif_77,etv7
+21,Granulocyte cell_Zebrafish19,Motif_77,zbtb2b
+22,Hepatocyte cell_Zebrafish1,Motif_77,erfl1
+23,Hepatocyte cell_Zebrafish8,Motif_77,erfl1
+24,Immune cell_Zebrafish13,Motif_77,fli1b
+25,Intestinal bulb cell_Zebrafish17,Motif_77,etv7
+26,Intestinal bulb cell_Zebrafish6,Motif_77,etv7
+27,Primordial germ cell_Zebrafish10,Motif_85,znf740b
+28,Primordial germ cell_Zebrafish15,Motif_85,znf740b
+29,Primordial germ cell_Zebrafish15,Motif_85,sp3b
+30,Primordial germ cell_Zebrafish15,Motif_85,glis1a
+31,Epithelial cell_Zebrafish14,Motif_115,zic5
+32,Epithelial cell_Zebrafish14,Motif_115,zic6
+33,Epithelial cell_Zebrafish21,Motif_115,znf281a
+34,Epithelial cell_Zebrafish21,Motif_115,znf281b
+35,Epithelial cell_Zebrafish23,Motif_115,zic6
+36,Epithelial cell_Zebrafish28,Motif_115,znf281a
+37,Epithelial cell_Zebrafish28,Motif_115,zic6
+38,Neuron_Zebrafish2,Motif_115,znf281a
+39,Neuron_Zebrafish2,Motif_115,znf281b
+40,Neuron_Zebrafish2,Motif_115,zic5
+41,Neuron_Zebrafish2,Motif_115,zic6
+42,Proliferating cell_Zebrafish4,Motif_115,znf281a
+43,Proliferating cell_Zebrafish4,Motif_115,znf281b
+44,Proliferating cell_Zebrafish4,Motif_115,zic5
+45,Proliferating cell_Zebrafish4,Motif_115,zic6
