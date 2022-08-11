@@ -1,0 +1,13 @@
+Celltype,Species,Cellcluster,colors_lineage
+Intestinal_rectal_muscle,WORM,Muscle,#66A61E
+Dopaminergic_neurons,WORM,Neuron,#D95F02
+Ciliated_sensory_neurons,WORM,Neuron,#D95F02
+Canal_associated_neurons,WORM,Neuron,#D95F02
+Cholinergic_neurons,WORM,Neuron,#D95F02
+Somatic_gonad_precursors,WORM,Precursors,#E6AB02
+Vulval_precursors,WORM,Precursors,#E6AB02
+Pharyngeal_neurons,WORM,Neuron,#D95F02
+Touch_receptor_neurons,WORM,Neuron,#D95F02
+flp-1(+)_interneurons,WORM,Neuron,#D95F02
+Non-seam_hypodermis,WORM,Non-seam,#33A02C
+Pharyngeal_epithelia,WORM,Pharyn,#E31A1C
