@@ -1,0 +1,12 @@
+Celltype,Species,Cellcluster,Celltype_name,colors_lineage
+EarthWorm5,EarthWorm,DigestiveGland,Digestive gland cell,orange
+EarthWorm21,EarthWorm,Neuron,Neuron,#D95F02
+EarthWorm28,EarthWorm,Neuron,Neuron,#D95F02
+EarthWorm27,EarthWorm,Neuron,Neuron,#D95F02
+EarthWorm29,EarthWorm,Erythrocruorin,Erythrocruorin,#2c7fb8
+EarthWorm19,EarthWorm,Muscle,Muscle cell,#66A61E
+EarthWorm8,EarthWorm,Coelomocytes,Coelomocytes (RP_high),#BC80BD
+EarthWorm4,EarthWorm,Muscle,Body wall muscle,#66A61E
+EarthWorm23,EarthWorm,Muscle,Body wall muscle,#66A61E
+EarthWorm11,EarthWorm,Muscle,Body wall muscle,#66A61E
+EarthWorm17,EarthWorm,Muscle,Muscle cell (Proliferating),#66A61E

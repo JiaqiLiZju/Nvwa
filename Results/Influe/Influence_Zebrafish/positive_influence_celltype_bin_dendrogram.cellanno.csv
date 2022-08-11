@@ -1,0 +1,55 @@
+Celltype,Species,Cellcluster,Celltype_name,colors_lineage
+Zebrafish15,Zebrafish,Germ,Primordial germ cell,lightblue
+Zebrafish78,Zebrafish,Neuron,Oligodendrocyte,#D95F02
+Zebrafish4,Zebrafish,Proliferating,Proliferating cell,#A6761D
+Zebrafish28,Zebrafish,Neuron,Neural progenitor cell,#D95F02
+Zebrafish2,Zebrafish,Neuron,Neuron,#D95F02
+Zebrafish55,Zebrafish,Neuron,Neural progenitor cell,#D95F02
+Zebrafish58,Zebrafish,Neuron,Radial glia,#D95F02
+Zebrafish21,Zebrafish,Neuron,Neural progenitor cell,#D95F02
+Zebrafish36,Zebrafish,Neuron,Neural progenitor cell,#D95F02
+Zebrafish14,Zebrafish,Proliferating,Proliferating cell,#A6761D
+Zebrafish23,Zebrafish,Neuron,Neuron,#D95F02
+Zebrafish31,Zebrafish,Muscle,Muscle cell,#66A61E
+Zebrafish69,Zebrafish,Stromal,Osteoblast cell,#BEBADA
+Zebrafish50,Zebrafish,Stromal,Stromal cell,#BEBADA
+Zebrafish61,Zebrafish,Stromal,Stromal cell,#BEBADA
+Zebrafish32,Zebrafish,Stromal,Osteoblast cell,#BEBADA
+Zebrafish9,Zebrafish,Stromal,Stromal cell,#BEBADA
+Zebrafish71,Zebrafish,Stromal,Osteoblast cell,#BEBADA
+Zebrafish77,Zebrafish,Epithelial,Pigment cell,#E7298A
+Zebrafish68,Zebrafish,Epithelial,Enveloping layer cell,#E7298A
+Zebrafish39,Zebrafish,Muscle,Mucosal muscle cell,#66A61E
+Zebrafish52,Zebrafish,Immune,Mucin cell ,#1B9E77
+Zebrafish5,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish42,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish33,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish8,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish25,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish7,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish1,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish84,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish13,Zebrafish,Immune,Immune cell,#1B9E77
+Zebrafish80,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish17,Zebrafish,Epithelial,Intestinal bulb cell,#E7298A
+Zebrafish20,Zebrafish,Epithelial,Goblet cell,#E7298A
+Zebrafish85,Zebrafish,Erythroid,Erythroid cell,#4DAF4A
+Zebrafish65,Zebrafish,Neuron,Neuron ,#D95F02
+Zebrafish86,Zebrafish,Neuron,Neuron,#D95F02
+Zebrafish59,Zebrafish,Neuron,Neural progenitor cell,#D95F02
+Zebrafish87,Zebrafish,Stromal,Stromal cell,#BEBADA
+Zebrafish10,Zebrafish,Germ,Primordial germ cell,lightblue
+Zebrafish54,Zebrafish,Muscle,Muscle cell,#66A61E
+Zebrafish83,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish43,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish47,Zebrafish,Epithelial,Renal tubule ,#E7298A
+Zebrafish22,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish49,Zebrafish,Epithelial,Ionocyte,#E7298A
+Zebrafish44,Zebrafish,Secretory,Neurosecretory cell,#E6AB02
+Zebrafish70,Zebrafish,Epithelial,Ionocyte,#E7298A
+Zebrafish26,Zebrafish,Immune,T cell,#1B9E77
+Zebrafish53,Zebrafish,Epithelial,Enterocyte cell,#E7298A
+Zebrafish6,Zebrafish,Epithelial,Intestinal bulb cell,#E7298A
+Zebrafish46,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish29,Zebrafish,Immune,Macrophage,#1B9E77
+Zebrafish63,Zebrafish,Epithelial,Intestinal bulb cell,#E7298A

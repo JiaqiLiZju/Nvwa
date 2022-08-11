@@ -1,0 +1,27 @@
+Celltype,Species,Cellcluster,Celltype_name,colors_lineage
+EarthWorm8,EarthWorm,Coelomocytes,Coelomocytes (RP_high),#BC80BD
+EarthWorm11,EarthWorm,Muscle,Body wall muscle,#66A61E
+EarthWorm17,EarthWorm,Muscle,Muscle cell (Proliferating),#66A61E
+EarthWorm23,EarthWorm,Muscle,Body wall muscle,#66A61E
+EarthWorm4,EarthWorm,Muscle,Body wall muscle,#66A61E
+EarthWorm5,EarthWorm,DigestiveGland,Digestive gland cell,orange
+EarthWorm29,EarthWorm,Erythrocruorin,Erythrocruorin,#2c7fb8
+EarthWorm27,EarthWorm,Neuron,Neuron,#D95F02
+EarthWorm21,EarthWorm,Neuron,Neuron,#D95F02
+EarthWorm28,EarthWorm,Neuron,Neuron,#D95F02
+EarthWorm19,EarthWorm,Muscle,Muscle cell,#66A61E
+EarthWorm12,EarthWorm,Coelomocytes,Coelomocytes,#BC80BD
+EarthWorm13,EarthWorm,Coelomocytes,Coelomocytes,#BC80BD
+EarthWorm1,EarthWorm,Coelomocytes,Coelomocytes,#BC80BD
+EarthWorm3,EarthWorm,Germ,Sperm stem cell,lightblue
+EarthWorm6,EarthWorm,Muscle,Muscle cell,#66A61E
+EarthWorm16,EarthWorm,Epithelial,?Mechanosensory cell,#E7298A
+EarthWorm25,EarthWorm,Epithelial,Cuticle_epidermis cell,#E7298A
+EarthWorm10,EarthWorm,Neuron,Ganglia,#D95F02
+EarthWorm26,EarthWorm,Epithelial,Cuticle_epidermis cell,#E7298A
+EarthWorm15,EarthWorm,Coelomocytes,Coelomocytes,#BC80BD
+EarthWorm18,EarthWorm,Coelomocytes,Coelomocytes,#BC80BD
+EarthWorm14,EarthWorm,Epithelial,Cuticle_epidermis cell,#E7298A
+EarthWorm20,EarthWorm,Germ,Sperm stem cell,lightblue
+EarthWorm24,EarthWorm,Neuron,Neuron,#D95F02
+EarthWorm9,EarthWorm,Muscle,Muscle cell,#66A61E

@@ -1,0 +1,79 @@
+Celltype,Species,Cellcluster,Celltype_name,colors_lineage
+Zebrafish2,Zebrafish,Neuron,Neuron,#D95F02
+Zebrafish28,Zebrafish,Neuron,Neural progenitor cell,#D95F02
+Zebrafish55,Zebrafish,Neuron,Neural progenitor cell,#D95F02
+Zebrafish81,Zebrafish,Muscle,Cardiomyocyte,#66A61E
+Zebrafish35,Zebrafish,Stromal,Stromal cell,#BEBADA
+Zebrafish77,Zebrafish,Epithelial,Pigment cell,#E7298A
+Zebrafish50,Zebrafish,Stromal,Stromal cell,#BEBADA
+Zebrafish61,Zebrafish,Stromal,Stromal cell,#BEBADA
+Zebrafish71,Zebrafish,Stromal,Osteoblast cell,#BEBADA
+Zebrafish78,Zebrafish,Neuron,Oligodendrocyte,#D95F02
+Zebrafish32,Zebrafish,Stromal,Osteoblast cell,#BEBADA
+Zebrafish69,Zebrafish,Stromal,Osteoblast cell,#BEBADA
+Zebrafish9,Zebrafish,Stromal,Stromal cell,#BEBADA
+Zebrafish21,Zebrafish,Neuron,Neural progenitor cell,#D95F02
+Zebrafish4,Zebrafish,Proliferating,Proliferating cell,#A6761D
+Zebrafish36,Zebrafish,Neuron,Neural progenitor cell,#D95F02
+Zebrafish23,Zebrafish,Neuron,Neuron,#D95F02
+Zebrafish58,Zebrafish,Neuron,Radial glia,#D95F02
+Zebrafish14,Zebrafish,Proliferating,Proliferating cell,#A6761D
+Zebrafish31,Zebrafish,Muscle,Muscle cell,#66A61E
+Zebrafish18,Zebrafish,Epithelial,Enveloping layer cell,#E7298A
+Zebrafish68,Zebrafish,Epithelial,Enveloping layer cell,#E7298A
+Zebrafish86,Zebrafish,Neuron,Neuron,#D95F02
+Zebrafish87,Zebrafish,Stromal,Stromal cell,#BEBADA
+Zebrafish65,Zebrafish,Neuron,Neuron ,#D95F02
+Zebrafish74,Zebrafish,Stromal,Head mesenchymal cell,#BEBADA
+Zebrafish54,Zebrafish,Muscle,Muscle cell,#66A61E
+Zebrafish66,Zebrafish,Immune,Macrophage,#1B9E77
+Zebrafish73,Zebrafish,Stromal,Osteoblast cell,#BEBADA
+Zebrafish12,Zebrafish,Stromal,Stromal cell,#BEBADA
+Zebrafish62,Zebrafish,Stromal,Stromal cell,#BEBADA
+Zebrafish79,Zebrafish,Stromal,Stromal cell,#BEBADA
+Zebrafish34,Zebrafish,Endothelial,Endothelial cell,#E41A1C
+Zebrafish59,Zebrafish,Neuron,Neural progenitor cell,#D95F02
+Zebrafish67,Zebrafish,Muscle,Smooth muscle cell,#66A61E
+Zebrafish13,Zebrafish,Immune,Immune cell,#1B9E77
+Zebrafish8,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish80,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish1,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish33,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish5,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish42,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish84,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish25,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish7,Zebrafish,Hepatocyte,Hepatocyte cell,#984EA3
+Zebrafish85,Zebrafish,Erythroid,Erythroid cell,#4DAF4A
+Zebrafish10,Zebrafish,Germ,Primordial germ cell,lightblue
+Zebrafish15,Zebrafish,Germ,Primordial germ cell,lightblue
+Zebrafish75,Zebrafish,Neuron,Oligodendrocyte,#D95F02
+Zebrafish11,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish51,Zebrafish,Epithelial,Ionocyte,#E7298A
+Zebrafish22,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish45,Zebrafish,Epithelial,lonocyte,#E7298A
+Zebrafish83,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish27,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish64,Zebrafish,Immune,Macrophage,#1B9E77
+Zebrafish38,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish3,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish60,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish26,Zebrafish,Immune,T cell,#1B9E77
+Zebrafish20,Zebrafish,Epithelial,Goblet cell,#E7298A
+Zebrafish16,Zebrafish,Immune,Macrophage,#1B9E77
+Zebrafish19,Zebrafish,Immune,Granulocyte cell,#1B9E77
+Zebrafish48,Zebrafish,Epithelial,Pancreatic exocrine cell,#E7298A
+Zebrafish39,Zebrafish,Muscle,Mucosal muscle cell,#66A61E
+Zebrafish52,Zebrafish,Immune,Mucin cell ,#1B9E77
+Zebrafish70,Zebrafish,Epithelial,Ionocyte,#E7298A
+Zebrafish53,Zebrafish,Epithelial,Enterocyte cell,#E7298A
+Zebrafish17,Zebrafish,Epithelial,Intestinal bulb cell,#E7298A
+Zebrafish6,Zebrafish,Epithelial,Intestinal bulb cell,#E7298A
+Zebrafish47,Zebrafish,Epithelial,Renal tubule ,#E7298A
+Zebrafish57,Zebrafish,Epithelial,Renal tubule ,#E7298A
+Zebrafish29,Zebrafish,Immune,Macrophage,#1B9E77
+Zebrafish63,Zebrafish,Epithelial,Intestinal bulb cell,#E7298A
+Zebrafish44,Zebrafish,Secretory,Neurosecretory cell,#E6AB02
+Zebrafish43,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish46,Zebrafish,Epithelial,Epithelial cell,#E7298A
+Zebrafish49,Zebrafish,Epithelial,Ionocyte,#E7298A
