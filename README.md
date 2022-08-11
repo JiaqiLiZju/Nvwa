@@ -24,7 +24,17 @@ captum
 - ```3_application``` for predicting genomic tracks
 - ```main``` examples for run model in each species
 - ```Analysis_plotting``` analysis and plotting function
-- ```Results``` results for Filter PWMs, annotation, functional genomic data overlap test and TFModisco Results.
+- ```Results``` results of Nvwa analysis
+
+#### Detailed description on Results Folder for Reproducing Figures
+- ```Test_Metrics``` AUROC and AUPR Metric values on held-out test set for eight species
+- ```scATAC_overlap_test``` Permutation test results of Nvwa whole-genome prediction and experimental functional genomics data
+- ```Filters``` Property information of filters/motifs for eight species
+- ```Filter_Annotation``` filters/motifs annotation results of TomTom agains known motif database
+- ```Influe``` Influence scores (the fold-change of in-silico filter nullification on predictions)
+- ```Influe_celltype``` detailed analysis of Influence scores
+- ```Species_motif_hit.csv``` homologous Filters/motifs identified by TomTom among eight species
+- ```tomtom_DBtfmodiscoTrimmed_NvwaConv1.html``` comparison of tfmodisco motifs and Nvwa featuremap-based motifs
 
 For reproducing the Nvwa analysis from scratch, we recomand reading the `dmel.sh` in `main` folder, and downloading the drosophila dataset from the url below. 
 
