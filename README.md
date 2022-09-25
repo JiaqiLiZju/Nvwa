@@ -1,7 +1,9 @@
 # NvWA
-Code used for ```Deep learning of cross-species single cell atlases identifies conserved regulatory programs underlying cell types```
+Code used for ```Deep learning of cross-species single-cell landscapes identifies conserved regulatory programs underlying cell types```
 
 Nvwa, a deep learning–based strategy, to predict expression landscapes and decipher regulatory elements (Filters) at the single-cell level.
+
+<div align=left><img src="./Logo.png" width="80px"></img></div>
 
 ## Requirements
 - Python packages
@@ -67,3 +69,8 @@ python 2_explain/1_run_explain.py ./Dataset.Dmel_train_test.h5
 Nvwa is now more like in-house scripts for reproducing our work, if you find any problem running Nvwa code, please contant me. If you run into errors loading trained model weights files, it is likely the result of differences in PyTorch or CUDA toolkit versions.  
 
 NvTK (NvwaToolKit, https://github.com/JiaqiLiZju/NvTK), a more systemmatic software is under acitivate development. It will support modern deep learning achitectures in genomics, such as ResNet, Attention Module, and Transformer. I recommend to use NvTK for generating your own model.
+
+## Citation
+Please cite the corresponding protocol published concurrently to this repository:
+
+Jiaqi Li, Jingjing Wang, Peijing Zhang, Renying Wang, Yuqing Mei, Zhongyi Sun, Lijiang Fei, Mengmeng Jiang,Lifeng Ma, Weigao E, Haide Chen,Xinru Wang, Yuting Fu, Hanyu Wu, Daiyuan Liu, Xueyi Wang, Jingyu Li, Qile Guo, Yuan Liao, Chengxuan Yu, Danmei Jia, Jian Wu, Shibo He, Huanju Liu, Jun Ma, Kai Lei, Jiming Chen, Xiaoping Han, Guoji Guo. Deep learning of cross-species single-cell landscapes identifies conserved regulatory programs underlying cell types. Nature Genetics, 2022. DOI: 10.1038/s41588-022-01197-7
